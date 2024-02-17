@@ -1,13 +1,15 @@
 body {
-    background-color: hsl(0, 0%, 96%);
+    color: whitesmoke;
     font-family: Arial, sans-serif;
-    margin-left: 30%;
-    margin-right: 30%;
-    
 }
 
 .container {
-    margin-top: 50px;
+    border-radius: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1%;
+    backdrop-filter: blur(20px);    
+    background: linear-gradient(to bottom right, #5B7FFF, #33CCFC);
 }
 
 .panel-primary {
@@ -15,8 +17,7 @@ body {
 }
 
 .panel-heading {
-    background-color: #337ab7;
-    color: #fff;
+    padding-left: 2%;
 }
 
 .panel-body {
